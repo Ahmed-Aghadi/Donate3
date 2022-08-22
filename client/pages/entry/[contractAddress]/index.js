@@ -250,7 +250,7 @@ export default function EntryDetail(props) {
                         </div>
                         {isDonationInProcess && (
                             <div className="flex justify-center">
-                                <span class="bg-red-100 text-red-800 text-xs font-semibold mr-5 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-900">
+                                <span className="bg-red-100 text-red-800 text-xs font-semibold mr-5 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-900">
                                     Donation in process
                                 </span>
                                 <div className=" self-center">
@@ -274,7 +274,7 @@ export default function EntryDetail(props) {
                         </div>
 
                         <div className="text-center mb-2">
-                            <span class="bg-green-100 text-green-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900">
+                            <span className="bg-green-100 text-green-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900">
                                 Goal : {goal} Matic
                             </span>
                         </div>
@@ -292,7 +292,7 @@ export default function EntryDetail(props) {
                         </div>
 
                         <div className="text-center mb-2">
-                            <span class="bg-red-100 text-red-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-900">
+                            <span className="bg-red-100 text-red-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-900">
                                 Received: {amountReceived} Matic
                             </span>
                         </div>
